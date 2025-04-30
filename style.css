@@ -167,3 +167,46 @@ span {
     font-weight: bold;
     text-align: right;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+    height: 80px;
+    padding: 10px 50px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin: 50px;
+}
+
+.action-title {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.action-sub {
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid #F9FAF8 1px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    padding: 6px 18px;
+}
+
+.footer {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.7em;
+}
