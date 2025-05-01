@@ -28,6 +28,7 @@ a {
 }
 .header {
     background-color: #1F2937;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -54,8 +55,10 @@ a {
 .hero-content {
     display: flex;
     justify-content: center;
-    align-items: start;
-    padding: 60px;
+    align-items: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .hero-text {
@@ -63,8 +66,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    width: 450px;
-    height: 300px;
+    max-width: 30%;
     gap: 6px;
 }
 
@@ -81,6 +83,7 @@ a {
 
 .hero-img {
     display: flex;
+    max-width: 40%;
 }
 
 .hero-button {
@@ -102,6 +105,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -113,7 +117,7 @@ a {
 }
 
 .info-item {
-    width: 100vw;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     padding: 60px;
@@ -171,6 +175,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .action-container {
